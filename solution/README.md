@@ -1,6 +1,6 @@
 # repro_R
 
-Materials for workshop "Open and Reproducible Science in R and RStudio"
+Example solution for workshop "Open and Reproducible Science in R and RStudio" based on the provided example code and data.
 
 ## Author
 
@@ -9,6 +9,10 @@ Utrecht University
 email: n.h.hohmann [at] uu.nl  
 Web page: [www.uu.nl/staff/NHohmann](https://www.uu.nl/staff/NHHohmann)  
 ORCID: [0000-0003-1559-1838](https://orcid.org/0000-0003-1559-1838)
+
+## Requirements
+
+R version 4.2 or larger and the RStudio IDE
 
 ## Usage
 
@@ -39,7 +43,23 @@ Apache 2.0, see LICENCE file for full text
 
 ## Repository structure
 
-* example: folder containing initial example of dummy code and data for participants to work on
-  * data.csv: dummy data
-  * code.R: dummy code
-  * gen_data.R: code to generate dummy data (for reproducibility)
+* code: folder with R scripts
+  * analysis.R : example code, loads data and performs bootstrap analyses
+  * make_figs.R : plots results of bootstrap analyses, saves plots in `figs/`
+* data: data folder
+  * raw: folder for raw data - READ ONLY
+    * dummy_data.csv : example data
+  * bootstrap_sd.RData: results of the bootstrap analysis of the standard deviation. Generated anew by `code/analysis.R`
+* figs: folder for figures. Initially empty, filled after `code/make_figs.R` is run
+* LICENSE: Apache 2.0 license text
+* README.md : readme file
+* .Rprofile : R session settings
+* renv : folder for `renv` package
+* renv.lock : lockfile for `renv` package
+
+## Citation
+
+Not published yet. In published form, this would look like
+
+* Hohmann, N. (2025). Example solution for workshop "Open and Reproducible Science in R and RStudio" (v1.0.0). Zenodo. https://doi.org/some_DOI_goes_here
+  

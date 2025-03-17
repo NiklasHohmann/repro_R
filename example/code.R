@@ -4,9 +4,9 @@ install.packages("StratPal")
 library(admtools)
 library(StratPal)
 
-setwd("C:/Users/JohnDoe/Documents/Sci/proj")
+setwd("C:/Users/JohnDoe/Documents/Sci/my_code")
 
-data = read.csv("example/dummy_data.csv")
+data = read.csv("dummy_data.csv")
 
 # bootstrapping means from sample
 x = c()
