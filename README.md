@@ -21,7 +21,7 @@ Open the file "repro_R" in the Rstudio IDE. This will set all paths correctly, a
 renv::restore()
 ```
 
-to install all packages in the correct version. A detailed description of the workshop can be found under `workshop/description`.
+to install all packages in the correct version. A description of the workshop can be found under `workshop/`.
 
 ## License
 
@@ -35,6 +35,9 @@ Apache 2.0, see LICENCE file for full text
     -   gen_data.R: code to generate dummy data (for reproducibility)
 -   slides: workshop slides as .pdf
 -   solution: one potential solution of how to make the example code open and reproducible. Standalone RProject
+-   workshop: folder with workshop materials
+    - description : file with brief description of workshop structure
+    - key_points : key points covered in the workshop
 -   renv: folder for `renv` package
 -   renv.lock: lockfile for `renv` package
 -   .gitignore: untracked files
