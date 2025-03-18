@@ -36,8 +36,8 @@ Apache 2.0, see LICENCE file for full text
 -   slides: workshop slides as .pdf
 -   solution: one potential solution of how to make the example code open and reproducible. Standalone RProject
 -   workshop: folder with workshop materials
-    - description : file with brief description of workshop structure
-    - key_points : key points covered in the workshop
+    -   description : file with brief description of workshop structure
+    -   key_points : key points covered in the workshop
 -   renv: folder for `renv` package
 -   renv.lock: lockfile for `renv` package
 -   .gitignore: untracked files
@@ -49,4 +49,4 @@ Apache 2.0, see LICENCE file for full text
 
 To cite these materials, please use
 
-* TBA
+-   Hohmann, N. (2025). Workshop materials "Open and Reproducible Science in R and RStudio" (v1.0.0). Zenodo. <https://doi.org/10.5281/zenodo.15043899>
